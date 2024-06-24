@@ -1,0 +1,7 @@
+#ignores the following files when running git add .
+/data/
+.env
+env
+/wandb/
+/__pycache__/
+/.pytest_cache/
