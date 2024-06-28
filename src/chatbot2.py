@@ -81,7 +81,6 @@ class IndexQuerySol2:
         llm = ChatOpenAI(temperature=temperature, model_name=self.model_chat)
 
         # Define vectorstore
-
         chain = RetrievalQA.from_chain_type(
             llm=llm,
             chain_type="stuff",

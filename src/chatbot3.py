@@ -144,7 +144,7 @@ if __name__ == "__main__":
                             api_key_openai=OPENAI_KEY,
                             parameter_dict=parameter_dict)
     
-    answer = result.complete(input_query='Hello')
+    answer = result.complete(input_query='hvad er reglerne for omlagt tjeneste?')
     print(answer)
 
     contexts = result.get_relevant_documents("""Hvad er reglerne for omlagt tjeneste? og hvor kan jeg finde det?""")
